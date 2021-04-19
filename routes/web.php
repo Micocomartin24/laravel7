@@ -15,4 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+    // return "hello";
+}); 
+
+Route::get('/post/{id}', function ($id)  { //test Params
+    return "This is the parameter " . $id;
 });
