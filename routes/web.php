@@ -30,3 +30,6 @@ Route::get('/admin/post/example', array('as'=>'admin.home', function(){ //Genera
 
     return('This is the URL '. $url);
 }));
+
+//Calling the post controller created need to reference a function use "@"
+Route::get('/post/{id}', 'PostController2@index'); 
