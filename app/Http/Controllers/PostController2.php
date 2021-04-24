@@ -26,6 +26,7 @@ class PostController2 extends Controller
     public function create()
     {
         //
+        return "creating stuff";
     }
 
     /**
@@ -48,6 +49,7 @@ class PostController2 extends Controller
     public function show($id)
     {
         //
+        return "this is the show method!";
     }
 
     /**
@@ -59,6 +61,8 @@ class PostController2 extends Controller
     public function edit($id)
     {
         //
+
+        return "this is the edit method!";
     }
 
     /**
@@ -71,6 +75,7 @@ class PostController2 extends Controller
     public function update(Request $request, $id)
     {
         //
+        return "update method";
     }
 
     /**
